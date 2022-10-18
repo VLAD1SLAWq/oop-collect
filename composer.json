@@ -1,0 +1,24 @@
+{
+    "name": "vladislawq/oop-collect",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav",
+            "email": "Desmond1894@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
+}
